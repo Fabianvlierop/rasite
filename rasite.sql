@@ -6,6 +6,9 @@
 -- Generation Time: May 27, 2019 at 01:10 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
+DROP DATABASE IF EXISTS `rasite`;
+CREATE DATABASE `rasite` DEFAULT CHARACTER SET utf8;
+USE `rasite`;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
